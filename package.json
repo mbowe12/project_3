@@ -1,0 +1,14 @@
+{
+  "name": "project_3",
+  "version": "1.0.0",
+  "description": "web server fro class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "matt",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}

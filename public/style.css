@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #000;
+  color: #11ff00;
+  text-align: center;
+}
+
+a {
+  color: #11ff00;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+}
+
+header {
+  background: #000;
+  border: 1px solid #333;
+  color: #11ff00;
+  padding: 10px 0;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+h4 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.ascii-art {
+  font-size: 1em;
+  line-height: 0.8em;
+}
+
+.hp-grid {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  width: 100%;
+  gap: 1em;
+}
+
+.hp-grid-item {
+  border: 1px solid #11ff00;
+  padding: 10px;
+  text-align: center;
+  border-radius: 1em;
+  width: 100%;
+  max-width: 60vw;
+}
+
+.hp-grid-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hp-grid-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  gap: 1em;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 505;
+}
+
+.album-container {
+  display: block;
+  width: fit-content;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.album-cover {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.album-details {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#releaseDate #albumLength {
+  font-size: 1em;
+  margin: 0;
+}
+
+.button {
+  font-size: 1.2em;
+  margin: 2.4em;
+  padding: 2em 3em;
+  border: 1px solid #11ff00;
+  border-radius: 1em;
+  background-color: #000;
+  color: #11ff00;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #11ff00;
+  color: #000;
+  transition: all 0.3s ease;
+}
